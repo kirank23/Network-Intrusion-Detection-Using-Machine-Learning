@@ -4,7 +4,7 @@
 With cyber attacks being a major threat against network and information security, network intrusion detection systems as components of defense-in-depth are indispensable as traditional firewalls alone cannot provide complete protection against intrusion. Intrusion Detection is an important aspect of Network Security and hence an analysis has been conducted on frequently used attacks by applying various Machine Learning techniques. 
 Keywords -Network Intrusion, Cyber attacks, Security, Machine Learning. 
 
-## 1. Introduction 
+## Introduction 
 Have you ever wondered how your computer/network is able to avoid being infected with malware and bad traffic inputs from the internet? The reason why it can detect it so well is because there are systems in place to protect your valuable information held in your computer or networks. These systems that detect malicious traffic inputs are called Intrusion Detection Systems (IDS) and are trained on internet traffic record data.
 An Intrusion Detection System monitors network traffic for suspicious activity and issues an alert when such activity is discovered. It is a software application that scans a network or a system for harmful activity or policy breaching. Any malicious venture or violation is normally reported either to an administrator or collected centrally using a security information and event management (SIEM) system. 
 Although intrusion detection systems monitor networks for potentially malicious activity, they are also disposed to false alarms. Hence, organizations need to fine-tune their IDS products when they first install them. It means properly setting up the intrusion detection systems to recognize what normal traffic on the network looks like as compared to malicious activity.
@@ -50,7 +50,7 @@ Libraries - matplotlib, pandas, sklearn, numpy, seaborn, imblearn.
 ![image](https://user-images.githubusercontent.com/79298507/134902956-f6dfda35-a1ed-4191-8299-b1436a30a2da.png)
 ![image](https://user-images.githubusercontent.com/79298507/134903032-cf142028-6d24-4137-a4a1-4a7b308f4b4a.png)
 
-### Future Enhancement
+## Future Enhancement
 
 The current proposition has a limited scope of detecting various types of network intrusion based attacks. The attacks can be categorized into each attack class which is present in the NSL-KDD dataset, any different type of intrusive approach may not be detected. 
 
