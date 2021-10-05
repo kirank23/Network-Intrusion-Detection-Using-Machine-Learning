@@ -2,7 +2,8 @@
 
 ### Abstract 
 With cyber attacks being a major threat against network and information security, network intrusion detection systems as components of defense-in-depth are indispensable as traditional firewalls alone cannot provide complete protection against intrusion. Intrusion Detection is an important aspect of Network Security and hence an analysis has been conducted on frequently used attacks by applying various Machine Learning techniques. 
-''' Keywords -Network Intrusion, Cyber attacks, Security, Machine Learning. '''
+
+Keywords -Network Intrusion, Cyber attacks, Security, Machine Learning.
 
 ## Introduction 
 Have you ever wondered how your computer/network is able to avoid being infected with malware and bad traffic inputs from the internet? The reason why it can detect it so well is because there are systems in place to protect your valuable information held in your computer or networks. These systems that detect malicious traffic inputs are called Intrusion Detection Systems (IDS) and are trained on internet traffic record data.
