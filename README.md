@@ -1,23 +1,24 @@
 # Network-Intrusion-Detection-Using-Machine-Learning
 
-### Abstract 
+## Abstract 
+
 With cyber attacks being a major threat against network and information security, network intrusion detection systems as components of defense-in-depth are indispensable as traditional firewalls alone cannot provide complete protection against intrusion. Intrusion Detection is an important aspect of Network Security and hence an analysis has been conducted on frequently used attacks by applying various Machine Learning techniques. 
 
 Keywords -Network Intrusion, Cyber attacks, Security, Machine Learning.
 
-## Introduction 
+### Introduction 
+
 Have you ever wondered how your computer/network is able to avoid being infected with malware and bad traffic inputs from the internet? The reason why it can detect it so well is because there are systems in place to protect your valuable information held in your computer or networks. These systems that detect malicious traffic inputs are called Intrusion Detection Systems (IDS) and are trained on internet traffic record data.
-An Intrusion Detection System monitors network traffic for suspicious activity and issues an alert when such activity is discovered. It is a software application that scans a network or a system for harmful activity or policy breaching. Any malicious venture or violation is normally reported either to an administrator or collected centrally using a security information and event management (SIEM) system. 
-Although intrusion detection systems monitor networks for potentially malicious activity, they are also disposed to false alarms. Hence, organizations need to fine-tune their IDS products when they first install them. It means properly setting up the intrusion detection systems to recognize what normal traffic on the network looks like as compared to malicious activity.
-Intrusion prevention systems also monitor network packets inbound the system to check the malicious activities involved in it and at once sends the warning notifications.
+An Intrusion Detection System monitors network traffic for suspicious activity and issues an alert when such activity is discovered. 
 
 ### Benefits of NIDS
+
 1. NIDS identify and prevent security threats from compromising secure networks.
 2. The deployment of NIDS has little impact on network performance. 
 3. NIDS are usually passive devices that listen on a network without interfering with the normal operation of a network.
 4. NIDS can be made very secure against attack and even made invisible to many attackers.
 
-## Proposed Methodology
+### Proposed Methodology
 
 The proposed solution makes use of various machine learning techniques to correctly classify and evaluate network based attacks. The NSL-KDD dataset is used for analyzing various types of attacks which can breach the network. Within the data set exists 4 different classes of attacks: 
 Denial of Service (DoS), Probe, User to Root(U2R), and Remote to Local (R2L). A brief description of each attack can be seen below:
@@ -29,8 +30,6 @@ Denial of Service (DoS), Probe, User to Root(U2R), and Remote to Local (R2L). A 
 3. U2R is an attack that starts off with a normal user account and tries to gain access to the system or network, as a super-user (root). The attacker attempts to exploit the vulnerabilities in a system to gain root privileges/access.
 
 4. R2L is an attack that tries to gain local access to a remote machine. An attacker does not have local access to the system/network, and tries to “hack” their way into the network.
-
-## Working of the present system
 
 The current proposition detects various network intrusion based attacks using machine learning techniques. Detection is done by first mapping the attack field to the attack class using the NSL-KDD dataset as a data source. After categorizing each attack field into separate categories, a statistical distribution is inferred and random sampling is done for selecting important features for classifying the type of network intrusion attack. A multimodal approach is then utilized for generating a classification report for evaluation. 
 
